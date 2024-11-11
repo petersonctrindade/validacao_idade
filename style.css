@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+header {
+    background-color: #222831;
+    height: 64px;
+    align-content: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    height: calc(100vh - 64px);
+    background-color: #31363F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main input {
+    margin: 16px 0;
+}

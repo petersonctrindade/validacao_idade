@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+header {
+    background-color: #222831;
+    align-content: center;
+    height: 64px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    height: calc(100vh - 64px);
+    /* background-color: #31363F; */
+    background-color: red;
+    align-content: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main button {
+    margin: auto;
+    display: block;
+    margin-top: 16px;
+}
+
+main button a {
+    text-align: center;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #000;
+}
